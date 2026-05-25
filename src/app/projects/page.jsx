@@ -1,25 +1,26 @@
 import Navbar from "../components/Navbar";
+
 const projects = [
   {
     id: 1,
     title: "Mr.Punctuation",
     category: "Punctuation & Grammar correction website",
-    image: "/Mr.Punctuation.png",
+    image: "/Mr.punctuation.png",
     link: "https://mr-punctuation-sxsc.vercel.app/",
   },
   {
     id: 2,
     title: "Personal Portfolio",
     category: "Portfolio & Resume",
-    image: "public/project2.jpg",
-    link: "https://your-portfolio-link.vercel.app",
+    image: "/portfolio.png",
+    link: "https://badhon-s-portfolio.vercel.app/",
   },
   {
     id: 3,
     title: "Konkong Choya",
     category: "Online Ornaments Shop",
     image: "/project3.jpg",
-    link: "https://your-konkong-link.vercel.app",
+    link: "kongkon-choya-web-page.vercel.app",
   },
   {
     id: 4,
@@ -32,15 +33,15 @@ const projects = [
     id: 5,
     title: "Kurbanir Hut",
     category: "Online Animal Store",
-    image: "/kurbanir-hut.png",
+    image: "/kurbanir hut.png",
     link: "https://qurbanihat-eta.vercel.app/",
   },
   {
     id: 6,
     title: "Automated Backup and System Monitoring",
     category: "Backup & Monitoring",
-    image: "/project6.jpg",
-    link: "https://github.com/Badhon63/backup-monitoring",
+    image: "/backup_monitoring.svg",
+    link: "https://github.com/Badhon63/automated_backup/tree/main",
   },
 ];
 
@@ -66,9 +67,11 @@ export default function Portfolio() {
               className="group overflow-hidden rounded-2xl shadow-lg border border-gray-100 hover:shadow-2xl transition cursor-pointer block"
             >
               <div className="relative h-64 w-full">
-                <div className="bg-gray-200 w-full h-full flex items-center justify-center text-gray-400">
-                  Image Placeholder
-                </div>
+               <img
+  src={project.image}
+  alt={project.title}
+  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+/>
               </div>
               <div className="p-6">
                 <p className="text-purple-600 text-sm font-semibold uppercase">

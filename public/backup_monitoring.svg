@@ -1,0 +1,78 @@
+<svg width="100%" viewBox="0 0 690 410" role="img" xmlns="http://www.w3.org/2000/svg" style="">
+<title style="fill:rgb(0, 0, 0);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto">Automated Backup and System Monitoring</title>
+<desc style="fill:rgb(0, 0, 0);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto">A dark terminal illustration showing backup and monitoring commands</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M2 1L8 5L2 9" fill="none" stroke="context-stroke" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></marker></defs>
+
+<rect width="680" height="400" fill="#0d1117" rx="0" style="fill:rgb(13, 17, 23);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+<!-- Terminal window -->
+<rect x="40" y="30" width="600" height="340" fill="#161b22" rx="12" style="fill:rgb(22, 27, 34);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+<!-- Title bar -->
+<rect x="40" y="30" width="600" height="36" fill="#21262d" rx="12" style="fill:rgb(33, 38, 45);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+<rect x="40" y="48" width="600" height="18" fill="#21262d" style="fill:rgb(33, 38, 45);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+<!-- Traffic lights -->
+<circle cx="72" cy="48" r="7" fill="#ff5f57" style="fill:rgb(255, 95, 87);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+<circle cx="96" cy="48" r="7" fill="#febc2e" style="fill:rgb(254, 188, 46);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+<circle cx="120" cy="48" r="7" fill="#28c840" style="fill:rgb(40, 200, 64);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+<!-- Terminal title -->
+<text x="340" y="53" text-anchor="middle" font-family="monospace" font-size="13" fill="#8b949e" style="fill:rgb(139, 148, 158);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:monospace;font-size:13px;font-weight:400;text-anchor:middle;dominant-baseline:auto">bash — backup_monitor.sh</text>
+
+<!-- Terminal content -->
+<!-- Line 1: prompt -->
+<text x="68" y="100" font-family="monospace" font-size="13" fill="#28c840" style="fill:rgb(40, 200, 64);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:monospace;font-size:13px;font-weight:400;text-anchor:start;dominant-baseline:auto">user@server</text>
+<text x="158" y="100" font-family="monospace" font-size="13" fill="#8b949e" style="fill:rgb(139, 148, 158);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:monospace;font-size:13px;font-weight:400;text-anchor:start;dominant-baseline:auto">:</text>
+<text x="166" y="100" font-family="monospace" font-size="13" fill="#58a6ff" style="fill:rgb(88, 166, 255);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:monospace;font-size:13px;font-weight:400;text-anchor:start;dominant-baseline:auto">~/backup</text>
+<text x="228" y="100" font-family="monospace" font-size="13" fill="#c9d1d9" style="fill:rgb(201, 209, 217);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:monospace;font-size:13px;font-weight:400;text-anchor:start;dominant-baseline:auto">$ ./backup.sh --start</text>
+
+<!-- Line 2 -->
+<text x="68" y="122" font-family="monospace" font-size="13" fill="#8b949e" style="fill:rgb(139, 148, 158);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:monospace;font-size:13px;font-weight:400;text-anchor:start;dominant-baseline:auto">[2026-05-25 20:00:01]</text>
+<text x="250" y="122" font-family="monospace" font-size="13" fill="#28c840" style="fill:rgb(40, 200, 64);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:monospace;font-size:13px;font-weight:400;text-anchor:start;dominant-baseline:auto">✓ Backup started...</text>
+
+<!-- Line 3 -->
+<text x="68" y="144" font-family="monospace" font-size="13" fill="#8b949e" style="fill:rgb(139, 148, 158);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:monospace;font-size:13px;font-weight:400;text-anchor:start;dominant-baseline:auto">[2026-05-25 20:00:03]</text>
+<text x="250" y="144" font-family="monospace" font-size="13" fill="#c9d1d9" style="fill:rgb(201, 209, 217);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:monospace;font-size:13px;font-weight:400;text-anchor:start;dominant-baseline:auto">Compressing /home/data → backup.tar.gz</text>
+
+<!-- Line 4 -->
+<text x="68" y="166" font-family="monospace" font-size="13" fill="#8b949e" style="fill:rgb(139, 148, 158);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:monospace;font-size:13px;font-weight:400;text-anchor:start;dominant-baseline:auto">[2026-05-25 20:00:08]</text>
+<text x="250" y="166" font-family="monospace" font-size="13" fill="#28c840" style="fill:rgb(40, 200, 64);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:monospace;font-size:13px;font-weight:400;text-anchor:start;dominant-baseline:auto">✓ Compression complete [142MB]</text>
+
+<!-- Line 5 -->
+<text x="68" y="188" font-family="monospace" font-size="13" fill="#8b949e" style="fill:rgb(139, 148, 158);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:monospace;font-size:13px;font-weight:400;text-anchor:start;dominant-baseline:auto">[2026-05-25 20:00:09]</text>
+<text x="250" y="188" font-family="monospace" font-size="13" fill="#c9d1d9" style="fill:rgb(201, 209, 217);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:monospace;font-size:13px;font-weight:400;text-anchor:start;dominant-baseline:auto">Uploading to remote storage...</text>
+
+<!-- Progress bar -->
+<rect x="68" y="200" width="500" height="14" fill="#21262d" rx="3" style="fill:rgb(33, 38, 45);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+<rect x="68" y="200" width="420" height="14" fill="#1f6feb" rx="3" style="fill:rgb(31, 111, 235);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+<text x="578" y="212" font-family="monospace" font-size="11" fill="#58a6ff" style="fill:rgb(88, 166, 255);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:monospace;font-size:11px;font-weight:400;text-anchor:start;dominant-baseline:auto">84%</text>
+
+<!-- Line 6 -->
+<text x="68" y="236" font-family="monospace" font-size="13" fill="#8b949e" style="fill:rgb(139, 148, 158);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:monospace;font-size:13px;font-weight:400;text-anchor:start;dominant-baseline:auto">[2026-05-25 20:00:15]</text>
+<text x="250" y="236" font-family="monospace" font-size="13" fill="#28c840" style="fill:rgb(40, 200, 64);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:monospace;font-size:13px;font-weight:400;text-anchor:start;dominant-baseline:auto">✓ Upload complete</text>
+
+<!-- Divider -->
+<line x1="68" y1="250" x2="612" y2="250" stroke="#21262d" stroke-width="1" style="fill:rgb(0, 0, 0);stroke:rgb(33, 38, 45);color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+<!-- System monitoring section -->
+<text x="68" y="272" font-family="monospace" font-size="13" fill="#febc2e" style="fill:rgb(254, 188, 46);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:monospace;font-size:13px;font-weight:400;text-anchor:start;dominant-baseline:auto">── System Monitor ──────────────────────────</text>
+
+<text x="68" y="294" font-family="monospace" font-size="13" fill="#8b949e" style="fill:rgb(139, 148, 158);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:monospace;font-size:13px;font-weight:400;text-anchor:start;dominant-baseline:auto">CPU  </text>
+<rect x="110" y="282" width="200" height="12" fill="#21262d" rx="2" style="fill:rgb(33, 38, 45);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+<rect x="110" y="282" width="120" height="12" fill="#28c840" rx="2" style="fill:rgb(40, 200, 64);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+<text x="318" y="293" font-family="monospace" font-size="12" fill="#28c840" style="fill:rgb(40, 200, 64);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:monospace;font-size:12px;font-weight:400;text-anchor:start;dominant-baseline:auto">60%</text>
+
+<text x="68" y="316" font-family="monospace" font-size="13" fill="#8b949e" style="fill:rgb(139, 148, 158);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:monospace;font-size:13px;font-weight:400;text-anchor:start;dominant-baseline:auto">MEM  </text>
+<rect x="110" y="304" width="200" height="12" fill="#21262d" rx="2" style="fill:rgb(33, 38, 45);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+<rect x="110" y="304" width="158" height="12" fill="#febc2e" rx="2" style="fill:rgb(254, 188, 46);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+<text x="318" y="315" font-family="monospace" font-size="12" fill="#febc2e" style="fill:rgb(254, 188, 46);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:monospace;font-size:12px;font-weight:400;text-anchor:start;dominant-baseline:auto">79%</text>
+
+<text x="68" y="338" font-family="monospace" font-size="13" fill="#8b949e" style="fill:rgb(139, 148, 158);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:monospace;font-size:13px;font-weight:400;text-anchor:start;dominant-baseline:auto">DISK </text>
+<rect x="110" y="326" width="200" height="12" fill="#21262d" rx="2" style="fill:rgb(33, 38, 45);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+<rect x="110" y="326" width="76" height="12" fill="#58a6ff" rx="2" style="fill:rgb(88, 166, 255);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+<text x="318" y="337" font-family="monospace" font-size="12" fill="#58a6ff" style="fill:rgb(88, 166, 255);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:monospace;font-size:12px;font-weight:400;text-anchor:start;dominant-baseline:auto">38%</text>
+
+<!-- Cursor blink -->
+<rect x="68" y="350" width="9" height="15" fill="#28c840" rx="1" style="fill:rgb(40, 200, 64);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+</svg>
