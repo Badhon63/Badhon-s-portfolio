@@ -50,10 +50,15 @@ I am continuously learning and improving my skills, especially in backend develo
           </div>
 
           <div className="mt-10">
-            <button className="bg-purple-600 text-white px-10 py-4 rounded-xl font-bold shadow-xl hover:bg-purple-700 transition">
-              Download CV
-            </button>
-          </div>
+  <a                                        
+    href="https://docs.google.com/document/d/1jVwZWpeAfHeH3LC6NVkQ0tOPZK_CHVrP"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="bg-purple-600 text-white px-10 py-4 rounded-xl font-bold shadow-xl hover:bg-purple-700 transition inline-block"
+  >
+    CV
+  </a>                                       
+</div>
         </div>
       </section>
     </main>

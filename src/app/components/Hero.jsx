@@ -1,11 +1,10 @@
 import Link from "next/link";
-import * as Icons from "lucide-react";
+
+import { FaGithub } from "react-icons/fa";
+import { CiLinkedin } from "react-icons/ci";
+import { FaDiscord } from "react-icons/fa6";
 
 export default function Hero() {
-  // এরর এড়াতে আমরা সরাসরি নাম ব্যবহার না করে ব্র্যাকেট নোটেশন ব্যবহার করছি
-  const GithubIcon = Icons["Github"] || Icons["GithubIcon"] || Icons["Code"];
-  const LinkedinIcon = Icons["Linkedin"] || Icons["LinkedinIcon"] || Icons["User"];
-  const DiscordIcon = Icons["Disc"] || Icons["MessageSquare"];
 
   return (
     <section className="grid md:grid-cols-2 items-center px-10 mt-10 min-h-[70vh]">
@@ -45,7 +44,7 @@ export default function Hero() {
             target="_blank" 
             className="text-gray-900 hover:text-purple-600 transition-colors"
           >
-            <LinkedinIcon size={28} />
+            <CiLinkedin size={28} />
           </Link>
 
           <Link 
@@ -53,7 +52,7 @@ export default function Hero() {
             target="_blank" 
             className="text-gray-900 hover:text-purple-600 transition-colors"
           >
-            <GithubIcon size={28} />
+            <FaGithub size={28} />
           </Link>
 
           <Link 
@@ -61,12 +60,12 @@ export default function Hero() {
             target="_blank" 
             className="text-gray-900 hover:text-purple-600 transition-colors"
           >
-            <DiscordIcon size={28} />
+            <FaDiscord size={28} />
           </Link>
         </div>
       </div>
 
-      {/* Right Image Area */}
+      
       <div className="flex justify-center mt-10 md:mt-0"> 
         <img
           src="/profile.png"
